@@ -33,6 +33,7 @@ $ CREATE TABLE data (
 $ pip install flask
 $ pip install flask-cors
 
+$ npm install
 $ npm install react-router
 $ npm install axios
 ```
