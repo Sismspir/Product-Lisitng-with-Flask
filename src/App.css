@@ -1,38 +1,174 @@
-.App {
+body {
+  height: 95vh;
+  display: block;
+  padding: 0;
+  margin: 0;
+  color: white;
+  background-image: linear-gradient(79deg, #76a4af, #0307e2 48%, #5f9fab);
+}
+
+.login {
   text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.welcome {
+  margin-top: 25vh;
+  text-align: center;
+  text-shadow: 2px 2px 4px rgba(172, 154, 154, 0.5);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  margin: 0.5rem 0;
+  padding: 1rem;
+  border: none;
+  border-radius: 10px;
+}
+
+.login-btn {
+  font-weight: 700;
+  border: none;
+  background-color: white;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #1b649b; 
+}
+
+.btn {
+  border: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #2d2b2f;
+}
+
+.btn-delete {
+  font-size: 2.2vh;
+  font-weight: 600;
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: #2d2b2f
+}
+
+.btn-save {
+  width: 6vw;
+  background-color: white;
+  padding: 1vh;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: #2d2b2f
+}
+
+.btn-save:hover {
+  background-color: rgb(41, 167, 62);
+  color: #fbf7ff
+}
+
+.btn-fetch {
+  min-width: 55px;
+  width: 6vw;
+  background-color: white;
+  margin-bottom: 2vh;
+  margin-right: 2vw;
+  padding: 1vh;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: 600;
+  cursor: pointer;
+  color: #334e50
+}
+
+.btn-fetch:hover {
+  background-color: rgb(209, 230, 252);
+  color: #272f33
+}
+
+.edit {
+  border: 1.5px solid #493d5f;
+  font-size: 2.2vh;
+  font-weight: 600;
+  background-color: white;
+  padding: 8px;
+  border-radius: 10px;
+  text-align: center;
+  cursor: pointer;
+  color: #7439db;
+  text-decoration: none;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20vh;
+
+}
+
+.login-form {
+  border: 1px solid white;
+  padding: 12vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 5px;
+}
+
+.table-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.table th,
+.table td {
+  border: 1px solid rgb(252, 253, 253);
+  padding: 2px;
+}
+
+.navItem {
+  margin: 2vw;
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 3vh;
+  transition: color 0.5s;
+  text-decoration: none;
+}
+
+.navItemHome {
+  margin: 2vw;
+  color: antiquewhite;
+  text-decoration: none;
+  font-size: 3vh;
+  transition: color 0.5s;
+  text-decoration: none;
+}
+
+.navItem:hover {
+  max-width: 9vw;
+  height: 20px; /*prevents the h2 from moving*/
+  margin-bottom: -1px;  /*prevents the h2 from moving*/
+  margin-right: 1.47vw;
+  font-size: 3.2vh;
+  border-bottom: 2px solid #5f9fab;
+  color: #c1c1cc;
+}
+
+.navItemHome:hover {
+  max-width: 9vw;
+  height: 20px; /*prevents the h2 from moving*/
+  margin-bottom: -1px;  /*prevents the h2 from moving*/
+  margin-right: 1.74vw;
+  font-size: 3.2vh;
+  border-bottom: 2px solid #5f9fab;
+  color: #c1c1cc;
 }
