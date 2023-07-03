@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 In the api folder, run:
 
-### python app.py
+### `python app.py`
 
 To create the My-Sql database you can run:
 
