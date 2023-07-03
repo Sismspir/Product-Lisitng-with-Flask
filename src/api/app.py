@@ -9,9 +9,9 @@ CORS(app, support_credentials=True)
 #make the connection with my-sql database
 conn = mysql.connector.connect(
 host='localhost',
-user='crud-user',
-password='Play16@@12@@',
-database='react_crud'
+user='your_username',
+password='your_password',
+database='your_database'
 )
 
 #the call is made initially to the back end to avoid the CORS error
